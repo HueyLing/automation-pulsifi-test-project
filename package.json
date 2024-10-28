@@ -1,0 +1,22 @@
+{
+  "name": "playwright-ui-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "test": "cucumber-js --require-module ts-node/register --require src/steps/**/*.ts src/features/**/*.feature --format progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.48.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@types/cucumber": "^7.0.3",
+    "@types/node": "^22.7.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
